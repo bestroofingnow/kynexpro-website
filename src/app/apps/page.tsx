@@ -25,10 +25,10 @@ const apps = [
   },
   {
     name: 'Kynex AI',
-    tagline: 'Business AI Assistant',
-    description: 'Your intelligent business assistant powered by advanced AI. Automate customer interactions, scheduling, and business operations.',
+    tagline: 'Blog Creator & SEO Tool',
+    description: 'Powerful AI-driven blog creation and SEO optimization platform. Generate high-quality, SEO-optimized content that ranks and drives organic traffic to your business.',
     url: 'https://app.kynex.ai',
-    features: ['24/7 AI assistant', 'Customer automation', 'Smart scheduling', 'Business insights'],
+    features: ['AI blog generation', 'SEO optimization', 'Keyword research', 'Content scheduling'],
     color: 'from-purple-500 to-purple-700',
   },
   {
