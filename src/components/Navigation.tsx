@@ -34,8 +34,14 @@ export default function Navigation() {
             <Link href="/about" className="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors">
               About
             </Link>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/seo-audit"
+              className="text-primary font-medium hover:text-primary-dark transition-colors"
+            >
+              Free SEO Audit
+            </Link>
+            <Link
+              href="/contact"
               className="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg transition-colors"
             >
               Contact Us
@@ -78,8 +84,15 @@ export default function Navigation() {
             <Link href="/about" className="block text-gray-700 dark:text-gray-300 hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>
               About
             </Link>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/seo-audit"
+              className="block text-primary font-medium hover:text-primary-dark transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Free SEO Audit
+            </Link>
+            <Link
+              href="/contact"
               className="block bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg transition-colors text-center"
               onClick={() => setIsOpen(false)}
             >
