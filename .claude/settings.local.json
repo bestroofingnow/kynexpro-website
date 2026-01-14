@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(npm run build:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Free SEO Audit Tool with exit popup and lead capture\n\nFeatures:\n- Comprehensive SEO audit page at /seo-audit\n- Exit-intent popup on all pages \\(except SEO audit page\\)\n- Advanced 5-stage loading animations with Framer Motion\n- Lead capture form gating the report \\(name, email, phone\\)\n- Full audit report with:\n  - Overall SEO score with animated gauge\n  - Page speed analysis\n  - Meta tags analysis\n  - Backlink profile\n  - Keyword rankings\n  - Competitor analysis \\(5 competitors\\)\n  - Mobile friendliness check\n  - Security analysis\n  - Prioritized recommendations\n- PDF download capability using @react-pdf/renderer\n- Webhook integration for lead data\n- Bright Data API integration \\(with mock fallback\\)\n\nComponents added:\n- AuditForm, LoadingAnimation, LeadCaptureForm\n- AuditReport, ReportPDF, ExitPopup\n- API routes for /api/seo-audit and /api/submit-lead\n- Bright Data integration library\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
